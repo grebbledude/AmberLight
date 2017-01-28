@@ -102,7 +102,7 @@ class FcmMessage {
         let msgNo = String(msg)
         print ("sending message " + msgNo )
         FIRMessaging.messaging().sendMessage(mMessage!,
-                                             to: "528137606903@gcm.googleapis.com",
+                                             to: "93765281376069036739@gcm.googleapis.com",
                                              withMessageID: msgNo,
                                              timeToLive: 24*60*60*3)
     }
